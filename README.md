@@ -1,6 +1,6 @@
-# fullstack_app13
+# flat-monorepo-fastapi-expo-refresh-connect-test
 
-A minimal fullstack Expo + FastAPI app scaffolded by `scaffold_fullstack_app13.py`.
+A minimal flat monorepo for a fullstack Expo + FastAPI app scaffolded by `scaffold_fullstack_app13.py`.
 
 ## 🧱 Stack
 
@@ -30,7 +30,7 @@ npx expo start
 ```
 
 Open the Expo app in your mobile emulator or device.  
-Make sure the backend is running before starting the app so the refresh tab works.
+Make sure the backend is running before starting the app so the Refresh tab works.
 
 ---
 
@@ -39,14 +39,15 @@ Make sure the backend is running before starting the app so the refresh tab work
 - `/ping` FastAPI backend route
 - Working frontend **Refresh** tab:
   - Calls backend endpoint and displays response
-- Hot-updatable backend message
+- Hot-updatable backend message from server
+- Flat monorepo layout with top-level Git repo
 
 ---
 
 ## 📌 Project Structure
 
 ```
-fullstack_app13/
+flat-monorepo-fastapi-expo-refresh-connect-test/
 ├── backend-fastapi/       # FastAPI backend server
 │   └── main.py            # Core app
 ├── frontend-expo/         # Expo React Native frontend
@@ -73,7 +74,7 @@ fullstack_app13/
 If not already initialized:
 
 ```bash
-cd fullstack_app13
+cd flat-monorepo-fastapi-expo-refresh-connect-test
 git init
 git add .
 git commit -m "Initial commit: Working fullstack Expo + FastAPI app"
@@ -82,7 +83,7 @@ git commit -m "Initial commit: Working fullstack Expo + FastAPI app"
 Then push to your GitHub repo:
 
 ```bash
-git remote add origin https://github.com/YOUR_USERNAME/fullstack_app13.git
+git remote add origin https://github.com/YOUR_USERNAME/flat-monorepo-fastapi-expo-refresh-connect-test.git
 git push -u origin main
 ```
 
