@@ -16,7 +16,16 @@ A minimal flat monorepo for a fullstack Expo + FastAPI app scaffolded by `scaffo
 
 ```bash
 cd backend-fastapi
-uvicorn main:app --reload
+
+# (optional) create and activate virtual env:
+python3 -m venv venv
+source venv/bin/activate
+
+# install dependencies
+pip install -r requirements.txt
+
+# run FastAPI server
+uvicorn main:app --reload --host 0.0.0.0 --port 8000
 ```
 
 The FastAPI server will be available at:  
