@@ -35,10 +35,15 @@ The FastAPI server will be available at:
 
 ```bash
 cd frontend-expo
+
+# install dependencies
+npm install
+
+# start Expo dev server
 npx expo start
 ```
 
-Open the Expo app in your mobile emulator or device.  
+Open the "Expo Go" app in your iPhone Simulator, Android Emulator, or actual, real, physical phone device.  
 Make sure the backend is running before starting the app so the Refresh tab works.
 
 ---
