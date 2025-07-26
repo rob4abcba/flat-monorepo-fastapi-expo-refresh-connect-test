@@ -12,7 +12,27 @@ A minimal flat monorepo for a fullstack Expo + FastAPI app scaffolded by `scaffo
 
 ## 🚀 Quickstart
 
-### 1. Backend
+### 1. Clone the repo locally
+
+```bash
+git clone https://github.com/rob4abcba/flat-monorepo-fastapi-expo-refresh-connect-test.git
+cd flat-monorepo-fastapi-expo-refresh-connect-test
+```
+
+If you get GitHub errors, follow their instructions.
+
+### 2. Inspect the folder structure
+
+```bash
+/backend-fastapi
+/frontend-expo
+README.md
+...
+```
+
+Confirm you have two folders at the root, one for backend, one for frontend.
+
+### 3. Backend (FastAPI)
 
 ```bash
 cd backend-fastapi
